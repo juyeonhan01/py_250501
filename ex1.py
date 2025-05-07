@@ -1,2 +1,3 @@
-def func1():
-    return "모듈에 있는 첫번째 함수"
+from ex1 import func1, func2
+print(func1())
+print(func2())
